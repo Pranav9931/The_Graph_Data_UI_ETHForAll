@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.45a00df4.css",
+    "main.js": "/static/js/main.251dede6.js",
+    "static/media/ethforall_background.png": "/static/media/ethforall_background.a93bda5962ea9b73a83b.png",
+    "static/media/ethforall_logo.png": "/static/media/ethforall_logo.b7ea85cfe64591544144.png",
+    "static/media/the-graph-grt-logo.png": "/static/media/the-graph-grt-logo.856958febebaa18fcb03.png",
+    "index.html": "/index.html",
+    "main.45a00df4.css.map": "/static/css/main.45a00df4.css.map",
+    "main.251dede6.js.map": "/static/js/main.251dede6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45a00df4.css",
+    "static/js/main.251dede6.js"
+  ]
+}

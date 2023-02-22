@@ -1,0 +1,145 @@
+.employee-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.employee-card{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #1a1a1a;
+    display: flex;
+    gap: 20px;
+    text-align: left;
+    background: #161616;
+    flex-wrap: wrap;
+
+}
+
+.employee-card:nth-last-of-type(odd){
+    background: #111;
+}
+.employee-card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.detail-box{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #1a1a1a;
+    margin-top: 5px;
+    min-width: 100px;
+    max-width: 250px;
+    overflow: auto;
+}
+
+.employee-details{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-between;
+
+}
+
+.employee-details-rev{
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+    align-self:flex-end;
+    gap: 15px;
+}
+  
+.btn-abs {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    margin-right: 10px;
+}
+
+.pay-btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #282828;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.card-bottom-wrapper{
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.success{
+    background: #28a74510;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 30px;
+    color: #28a745;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.warning {
+    background: #dc354510;
+    padding: 10px 20px;
+    text-align: center;
+    color: #dc3545;
+    font-weight: 600;
+    margin-top: 5px;
+    font-size: .8em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.payroll-container {
+    padding: 10px;
+    
+}
+
+.payroll-main-frame{
+    padding: 20px;
+    background: #1a1a1a;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payroll-title {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+/* Set the scrollbar width */
+::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  /* Set the color for the scrollbar track */
+  ::-webkit-scrollbar-track {
+    background-color: #1a1a1a;
+  }
+  
+  /* Set the color for the scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: #2c2c2c;
+  }
+  
+  /* Set the color for the scrollbar thumb on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #3e3e3e;
+  }
+  
+  

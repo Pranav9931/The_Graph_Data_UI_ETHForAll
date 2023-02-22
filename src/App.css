@@ -1,0 +1,57 @@
+
+.navbar{
+  width: 600px;
+  margin: 0 auto;
+  padding: 1em;
+  font-weight: 700;
+  background: rgba(17, 17, 17, 0.05);
+  backdrop-filter: blur( 11.5px );
+  -webkit-backdrop-filter: blur( 11.5px );
+  /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+  border: 1px solid rgba( 255, 255, 255, 0.05 );
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.emp-container{
+  width: calc(600px + 2em);
+  margin: 0 auto;
+  /* padding: 1em; */
+  border: 1px solid rgba( 255, 255, 255, 0.05 );
+}
+
+.logo-format{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-ethforall{
+  width: 50px;
+}
+
+.emp-container-details{
+  padding: 1em;
+}
+
+@media screen and (max-width: 600px){
+  .emp-container{
+    width: calc(100% - 2px);
+  }
+  .navbar{
+    width: calc(100% - 34px);
+  }
+}
+
+.the-graph-main-logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.the-graph-main-logo img{
+  width: 30px;
+}
